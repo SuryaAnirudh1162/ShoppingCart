@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <title>Shopping Cart</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width intial-scale=1 shrink-to-fit=no"> 
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        
+    </head>
+    
+    <body>
+        
+        <header id="home">
+            <div>
+                <a href="#home"><img src="img/sc.jpg" height="100px" width="100px"></a>
+            </div>
+            <div>
+                <a href="#home"><h1>Shopping Cart</h1></a>
+            </div>
+            <div>
+                <input type="text" maxlength="17" placeholder="Search" class="search">
+            </div>
+            <div>
+                <a href="dummy.html"><img src="img/search.png" class="search-icon" height="25" width="25"></a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="dummy.html">Log In</a></li>
+                    <li><a href="dummy.html">Sign Up</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="dummy.html"><img src="img/cart.png" height="50" width="50" class="cart"></a>
+            </div>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="mobile.html">Mobiles</a></li>
+                <li><a href="dummy.html">TV & Appliances</a></li>
+                <li><a href="dummy.html">Men</a></li>
+                <li><a href="dummy.html">Women</a></li>
+                <li><a href="dummy.html">Baby & Kids</a></li>
+                <li><a href="dummy.html">Home & Furnitures</a></li>
+            </ul>
+        </nav>
+        
+        <br>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <a href="dummy.html"><img src="img/offers1.jpg" width="100%" height="350vh"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="dummy.html"><img src="img/offers2.jpg" width="100%" height="350vh"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="dummy.html"><img src="img/offers3.jpg" width="100%" height="350vh"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="dummy.html"><img src="img/offers4.jpg" width="100%" height="350vh"></a>
+            </div>
+        </div>
+        <br>
+        <div class="dot-container">
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span> 
+        </div>
+        <script>
+            
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 4000);
+            }
+            
+        </script>
+
+        <div class="deals">
+            <h2>Deals  of  The  Day</h2>
+            <br>
+            <div>
+                <a href="www.linkedin.com"><img src="img/deal1.jpg" height="200" width="90%"></a>
+            </div>
+            <div>
+                <a href="dummy.html"><img src="img/deal2.jpg" height="200" width="90%"></a>
+            </div>
+            <div>
+                <a href="dummy.html"><img src="img/deal3.jpg" height="200" width="90%"></a>
+            </div>
+        </div>
+        
+        <br>
+        <footer>
+            
+            <div class="inner-footer-1">
+                    <div>
+                        <ul>
+                            <li style="color: antiquewhite;">ABOUT</li>
+                            <li><a href="dummy.html">Contact Us</a></li>
+                            <li><a href="dummy.html">About Us</a></li>
+                            <li><a href="dummy.html">Careers</a></li>
+                            <li><a href="dummy.html">Press</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li style="color:antiquewhite;">HELP</li>
+                            <li><a href="dummy.html">Payments</a></li>
+                            <li><a href="dummy.html">Shipping</a></li>
+                            <li><a href="dummy.html">Cancellation & Returns</a></li>
+                            <li><a href="dummy.html">Report an issue</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li style="color:antiquewhite;">POLICY</li>
+                            <li><a href="dummy.html">Return Policy</a></li>
+                            <li><a href="dummy.html">Time of Use</a></li>
+                            <li><a href="dummy.html">Privacy</a></li>
+                            <li><a href="dummy.html">Security</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="vertical"></div>
+            <div class="inner-footer-2">
+                <div>
+                    <div><h5>MAIL US :</h5></div>
+                    <div><p>Shopping.Cart@gmail.com</p></div>
+                </div>
+                <div>
+                    <div><h5>REG ADDRESS :</h5></div>
+                    <div>
+                    <p> Shopping Cart Private Limited,Buildings Alyssa,<br> 
+                        Begonia & Clove Embassy Tech Village,<br>
+                        Outer Ring Road, Devarabeesanahalli Village,<br>
+                        Bengaluru, 560103,<br>
+                        Karnataka, India,<br>
+                        CIN : U51109KA2012PTC066107,Telephone: 1800 208 9898.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+        
+    </body>
+    
+</html>

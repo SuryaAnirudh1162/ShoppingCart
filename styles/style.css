@@ -1,0 +1,591 @@
+body{
+    margin: 0px auto;
+    width:100%;
+}
+
+
+
+
+/*For Header*/
+header{
+    width:100%;
+    height : 17vh;
+}
+header div{
+    float : left;
+}
+header div a h1{
+    margin-left : 50px;
+    margin-top: 30px;
+    color: #111d5e;
+}
+header div a{
+    text-decoration: none;
+}
+header div input{
+    margin-top: 35px;
+    margin-left: 90px;
+}
+header div .search{
+    width: 25em;
+    height: 2em;
+    border: 2px solid #e3dfc8;
+    border-radius: 15px;
+    outline: none;
+}
+header div a .search-icon{
+    margin-top: 36px;
+    margin-left: 5px;
+}
+header div ul li{
+    margin-left: 70px;
+    margin-top: 15px;
+    font-size: 17px;
+    list-style-type: none;
+    float: left;
+    border : 2px solid #fe91ca;
+    border-spacing: 25em;
+    border-radius: 50px;
+    padding: 7px;
+}
+header div ul li a{
+    text-decoration: none;
+    color: #df5e88;
+}
+header div a .cart{
+    margin-left: 50px;
+    margin-top: 23px;
+}
+
+
+
+
+/*For Menu Items*/
+nav ul li{
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    padding-right: 120px;
+    padding-top: 13px; 
+}
+nav ul{
+    float : right;
+}
+nav{
+    width: 100%;
+    height: 14vh;
+    background-color: #e7305b;
+}
+nav ul li a{
+    text-decoration: none;
+    color : #f7f5dd;
+}
+nav ul li a:hover{
+    color : #4a3f35;
+}
+
+
+
+
+/*For SlideShow Offers*/
+.slideshow-container{
+  position: relative;
+  margin: auto;
+}
+.dot-container{
+    text-align: center;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+
+/* For Brands Display*/
+.ta{
+    width:100%;
+    height : 35vh;
+    background-color: #eeeeee;
+}
+.ta .ta-part{
+    float: left;
+    padding: 40px;
+    text-align: center;
+}
+.ta .ta-part a{
+    text-decoration: none;
+    color: #45046a;
+}
+.ta .ta-part :hover{
+    transform: scale(1.1);
+    color: #ffa931;
+}
+
+
+
+
+/* For Items Display */
+.items{
+    width: 100%;
+    height: 50vh;
+}
+.items .items-part{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.items .items-part a{
+    text-decoration:none;
+    color: #1b6ca8;
+}
+.items .items-part a :hover{
+    transform: scale(1.02);
+}
+
+
+
+/*For Deals of the Day*/
+.deals{
+    width: 100%;
+    height : 50vh;
+    background-color: #f6d743;
+}
+.deals h2{
+    color : #ffffff;
+    text-align: center;
+    font-size: 27px;
+    word-spacing: 7px;
+    padding: 10px;
+}
+.deals div{
+    width:33.33%;
+    float: left;
+}
+.deals div a img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.deals div a img:hover{
+    transform: scale(1.12);
+}
+
+
+
+
+/* For Phone*/
+.phone{
+    width: 100%;
+    height: 130vh;
+}
+.phone .phone-sub1{
+    width: 40%;
+    float:left;
+}
+.phone .phone-sub1 div{
+    padding: 100px;
+}
+.phone .phone-sub1 ul a{
+    text-decoration: none;
+}
+.phone .phone-sub1 ul a li{
+    list-style-type: none;
+    float: left;
+    margin: 10px;
+}
+.phone .phone-sub1 ul a li .button1{
+    background-color: #f0a500;
+    border: 2px solid #f0a500;
+    font-size: 27px;
+    border-width: 2px;
+    border-top-width: 14px;
+    border-bottom-width: 14px;
+    color: #ffffff;
+}
+.phone .phone-sub1 ul a li .button2{
+    background-color: #f37121;
+    border: 2px solid #f37121;
+    border-width: 16px;
+    font-size: 27px;
+    color: #ffffff;
+}
+.phone .phone-sub1 ul a li .button1:hover{
+    cursor: pointer;
+}
+.phone .phone-sub1 ul a li .button2:hover{
+    cursor:pointer;
+}
+.phone .phone-sub2{
+    width: 60%;
+    float: left;
+}
+.phone .phone-sub2 div{
+    padding: 40px;
+}
+
+
+
+
+/*For Footer*/
+footer{
+    width : 100%;
+    background-color: #1f4068;
+    height: 52vh;
+}
+footer .inner-footer-1{
+    float: left;
+    width: 65%;
+}
+footer .inner-footer-2{
+    float: right;
+    width:35%;
+    color : #ffffff;
+}
+footer .inner-footer-1 div{
+    float : left;
+    margin-top: 35px;
+    padding: 30px;
+}
+footer .inner-footer-1 div ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+footer .inner-footer-1 div ul li a{
+    text-decoration: none;
+    color : #ffffff;
+}
+footer .inner-footer-1 div ul li a:hover{
+    color: #3282b8;
+}
+footer .vertical{
+    border-left: 2px #ffffff solid;
+    height: 150px;
+    position: absolute;
+    left : 57%;
+    margin-top: 75px;
+}
+footer .inner-footer-2 div h5{
+    color:antiquewhite;
+}
+footer .inner-footer-2 div p{
+    font-size : 15px;
+}
+
+
+
+
+/* For Responsive Designing */
+@media (min-width : 320px) and (max-width : 767px){
+    header{
+        width: 200%;
+        height: 300px;
+    }
+    header div{
+        padding: 7px;
+    }
+    header div a img{
+        height: 75px;
+        width: 75px;
+    }
+    header div a .search-icon{
+        height:25px;
+        width: 25px;
+    }
+    header div a .cart{
+        height: 50px;
+        width: 40px;
+    }
+    header div ul li{
+    margin-left: 50px;
+    margin-top: 15px;
+    }
+    
+    nav{
+        width: 200%;
+        height: 175px;
+    }
+    nav ul li{
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        text-align: inherit;
+    }
+    
+    .slideshow-container{
+        width: 200%;
+    }
+    .dot-container{
+        width: 200%;
+    }
+ 
+    .deals{
+        width: 200%;
+        height: 350px;
+    }
+    .deals div{
+        width: 32%;
+    }
+    
+    .ta{
+        width: 200%;
+        height:450px;
+    }
+    .ta .ta-part{
+        width:20%;
+    }
+    
+    .items{
+        width: 200%;
+        height: 325px;
+    }
+    
+    .phone{
+        width: 200%;
+        height:1700px;
+    }
+    .phone .phone-sub1{
+        float: none;
+        width: 75%;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .phone .phone-sub1 div{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25%;
+    }
+    .phone .phone-sub2{
+        float: none;
+        width: 100%;
+    }
+    
+    footer{
+        width: 200%;
+        height: 900px;
+    }
+    footer .inner-footer-1{
+        float: left;
+        width: 100%;
+    }
+    footer .inner-footer-2{
+        float: left;
+        width: 100%;
+    }
+    footer .inner-footer-2 div{
+        width: 70%;
+        padding-left: 35px;
+    }
+    footer .vertical{
+        height: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    header{
+        height: 107px;
+        width: 150%;
+    }
+    header div a img{
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+    header div .search{
+        width: 15em;
+    }
+    
+    nav{
+        width: 150%;
+        height: 80px;
+    }
+    nav ul li{
+        text-align: center;
+        padding-right: 100px;
+    }
+    
+    .slideshow-container{
+        width: 150%;
+    }
+    .dot-container{
+        width: 150%;
+    }
+    
+    .deals{
+        width: 150%;
+        height: 350px;
+    }
+    
+    footer{
+        width: 150%;
+        height: 300px;
+    }
+    footer .vertical{
+        left : 90%;
+    }
+    
+    .ta{
+        padding: 0px;
+        width: 150%;
+        height: 200px;
+    }
+    .ta .ta-part{
+        padding: 16px;
+        margin: 15px;
+    }
+    
+    .items{
+        width: 150%;
+        height: 300px;
+    }
+    
+    .phone{
+        width: 150%;
+        height: 800px;
+    }
+
+}
+
+@media (min-width : 1024px) and (max-width:1439px){
+    header{
+        width: 100%;
+        height: 107px;
+    }
+    header div a img{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    header div a h1{
+        margin-left : 30px;
+    }
+    header div input{
+        margin-top: 35px;
+        margin-left: 50px;
+    }
+    header div .search{
+        width: 15em;
+    }
+    header div a .cart{
+        padding: 0px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    header div ul li{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    nav{
+        width: 100%;
+        height: 80px;
+    }
+    nav ul li{
+        text-align: center;
+        padding-right: 80px;
+    }
+    
+    .slideshow-container{
+        width: 100%;
+    }
+    .dot-container{
+        width: 100%;
+    }
+    
+    .deals{
+        width: 100%;
+        height: 350px;
+    }
+    .deals div{
+        width:33%;
+        float: left;
+    }
+    
+    footer{
+        width: 100%;
+        height: 300px;
+    }
+    footer .inner-footer-1 div{
+        float : left;
+        margin-top: 35px;
+        padding: 25px;
+    }
+    footer .vertical{
+        left:63%;
+    }
+    
+    .ta{
+        padding: 0px;
+        width: 100%;
+        height: 175px;
+    }
+    .ta .ta-part{
+        padding: 10px;
+        margin-left: 20px;
+    }
+    
+    .items{
+        width: 100%;
+        height: 300px;
+    }
+    .items .items-part{
+        
+    }
+    
+    .phone{
+        width: 100%;
+        height: 850px;
+    }
+    
+}
+
+@media (min-width:1440px) and (max-width: 2559px){
+    header{
+        width : 100%;
+        height: 107px;
+    }
+    
+    nav{
+        width: 100%;
+        height: 75px;
+    }
+    
+    .deals{
+        width: 100%;
+        height: 350px;
+    }
+    
+    footer{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .ta{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .items{
+        width:100%;
+        height: 350px;
+    }
+    
+    .phone{
+        width: 100%;
+        height: 800px;
+    }
+}
